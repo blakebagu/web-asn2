@@ -1,0 +1,34 @@
+.component3-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1528754704377-60e053a66165?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEzfHxkYXJrJTIwZ3JlZW4lMjBwYWludHxlbnwwfHx8fDE2OTkyMjQ2NDd8MA&ixlib=rb-4.0.3&w=1400");
+}
+.component3-text {
+  color: var(--dl-color-gray-white);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+@media(max-width: 1600px) {
+  .component3-container {
+    position: relative;
+  }
+  .component3-text {
+    top: 7px;
+    left: 22px;
+    color: var(--dl-color-gray-white);
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}
+@media(max-width: 991px) {
+  .component3-text {
+    text-align: center;
+  }
+}

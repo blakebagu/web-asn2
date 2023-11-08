@@ -1,0 +1,419 @@
+.newstalgia-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.newstalgia-navbar-interactive {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #f5ecdd;
+}
+.newstalgia-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.newstalgia-links {
+  flex: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.newstalgia-navlink {
+  left: 413px;
+  bottom: -1px;
+  position: absolute;
+  text-decoration: none;
+}
+.newstalgia-navlink1 {
+  left: 17px;
+  bottom: -2px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.newstalgia-navlink2 {
+  text-decoration: none;
+}
+.newstalgia-navlink3 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.newstalgia-navlink4 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.newstalgia-navlink5 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.newstalgia-navlink6 {
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.newstalgia-banner {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.newstalgia-text {
+  font-size: 3rem;
+  text-align: center;
+}
+.newstalgia-text1 {
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.newstalgia-gallery {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+}
+.newstalgia-container01 {
+  flex: 3;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.newstalgia-container02 {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.newstalgia-container03 {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.newstalgia-gallery-card {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.newstalgia-container04 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #00000096;
+}
+.newstalgia-container04:hover {
+  opacity: 1;
+}
+.newstalgia-container05 {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.newstalgia-image {
+  top: 0px;
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: auto;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.newstalgia-container06 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.newstalgia-gallery-card1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.newstalgia-container07 {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100%;
+  display: flex;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #00000096;
+}
+.newstalgia-container07:hover {
+  opacity: 1;
+}
+.newstalgia-image1 {
+  top: 0px;
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: auto;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.newstalgia-container08 {
+  flex: 2;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.newstalgia-gallery-card2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.newstalgia-container09 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.3s;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #00000096;
+}
+.newstalgia-container09:hover {
+  opacity: 1;
+}
+.newstalgia-container10 {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.newstalgia-image2 {
+  top: 0px;
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: auto;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+@media(max-width: 1600px) {
+  .newstalgia-navbar-interactive {
+    height: 129px;
+  }
+  .newstalgia-links {
+    position: relative;
+  }
+  .newstalgia-navlink {
+    left: 362px;
+    bottom: -1px;
+    position: absolute;
+    font-style: inherit;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .newstalgia-navlink2 {
+    top: -13px;
+    left: 504px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .newstalgia-navlink3 {
+    top: -16px;
+    right: 225px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .newstalgia-navlink4 {
+    top: -14px;
+    left: 89px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: inherit;
+    text-decoration: none;
+  }
+  .newstalgia-navlink5 {
+    top: -13px;
+    left: 685px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .newstalgia-navlink6 {
+    top: -13px;
+    left: 889px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .newstalgia-text {
+    font-size: 3rem;
+  }
+  .newstalgia-text1 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .newstalgia-gallery {
+    width: 100%;
+  }
+  .newstalgia-container03 {
+    height: 459px;
+  }
+  .newstalgia-container06 {
+    height: 389px;
+    margin-top: 0px;
+  }
+}
+@media(max-width: 991px) {
+  .newstalgia-text1 {
+    max-width: 100%;
+  }
+  .newstalgia-container08 {
+    width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .newstalgia-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .newstalgia-desktop-menu {
+    display: none;
+  }
+  .newstalgia-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .newstalgia-text1 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .newstalgia-gallery {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .newstalgia-container02 {
+    flex-direction: column;
+  }
+  .newstalgia-gallery-card {
+    flex-direction: column;
+  }
+  .newstalgia-gallery-card1 {
+    flex-direction: column;
+  }
+  .newstalgia-gallery-card2 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .newstalgia-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .newstalgia-banner {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .newstalgia-gallery {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .newstalgia-container01 {
+    width: auto;
+  }
+  .newstalgia-container04 {
+    max-width: auto;
+  }
+  .newstalgia-image {
+    top: 0px;
+    left: 0px;
+    right: auto;
+    bottom: auto;
+  }
+  .newstalgia-container07 {
+    max-width: auto;
+  }
+  .newstalgia-image1 {
+    top: 0px;
+    left: 0px;
+    right: auto;
+    bottom: auto;
+  }
+  .newstalgia-container09 {
+    max-width: auto;
+  }
+  .newstalgia-image2 {
+    top: 0px;
+    left: 0px;
+    right: auto;
+    bottom: auto;
+  }
+}

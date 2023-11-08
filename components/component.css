@@ -1,0 +1,36 @@
+.app-component-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDl8fGludGVyaW9yJTIwZGVzaWdufGVufDB8fHx8MTY5OTEzMTY0OXww&ixlib=rb-4.0.3&w=1400");
+  background-position: left;
+}
+.app-component-text {
+  color: var(--dl-color-gray-white);
+  font-size: 2rem;
+  font-weight: 600;
+}
+.app-component-button {
+  top: 191px;
+  right: -192px;
+  position: absolute;
+  border-color: #ffffff;
+  border-width: 0px;
+}
+.app-component-button1 {
+  top: 86px;
+  right: -145px;
+  position: absolute;
+  border-color: #ffffff;
+  border-width: 0px;
+}
+@media(max-width: 991px) {
+  .app-component-text {
+    text-align: center;
+  }
+}

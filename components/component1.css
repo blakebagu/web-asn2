@@ -1,0 +1,37 @@
+.component1-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-unit);
+  background-size: cover;
+  background-image: url('https://images.unsplash.com/photo-1616267231960-10c4a265c100?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDUxfHxpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHx8fDE2OTkxMzQ5MjR8MA&ixlib=rb-4.0.3&w=1400');
+  background-position: bottom left;
+}
+.component1-text {
+  left: 26px;
+  color: var(--dl-color-gray-white);
+  bottom: 11px;
+  position: absolute;
+  font-size: 2rem;
+  font-weight: 600;
+}
+@media(max-width: 1600px) {
+  .component1-container {
+    top: 0px;
+    left: 0px;
+    width: 929px;
+    position: absolute;
+    padding-right: 0px;
+  }
+}
+@media(max-width: 991px) {
+  .component1-text {
+    text-align: center;
+  }
+}
